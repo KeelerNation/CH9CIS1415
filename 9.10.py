@@ -7,6 +7,7 @@ class ItemToPurchase:
     def print_item_cost(self):
         print(self.item_name, self.item_quantity, '@ $%d = $%d' % (self.item_price, self.item_price * self.item_quantity))
 
+    def print_item_description(self):
 
 
 if __name__ == "__main__":
