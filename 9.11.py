@@ -72,3 +72,8 @@ if __name__ == "__main__":
     print('')
 
     print('Total: $%d' % ((items1.item_quantity * items1.item_price) + (items2.item_price * items2.item_quantity)))
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 7a07da20d2cdd417dd71ea5077872e530f9a6a37
