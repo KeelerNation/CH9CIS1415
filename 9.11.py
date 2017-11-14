@@ -9,7 +9,12 @@ class ItemToPurchase:
         print(self.item_name, self.item_quantity, '@ $%d = $%d' % (self.item_price, self.item_price * self.item_quantity))
 
     def print_item_description(self):
+<<<<<<< HEAD
         print('%s: %s'% (self.item_name, self.item_description))
+=======
+        print('test')
+
+>>>>>>> de77248c7d8784e4e628c5bb757f5ee08c2b86fd
 
 class ShoppingCart:
     def __init__(self):
