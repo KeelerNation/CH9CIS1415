@@ -11,10 +11,16 @@ class ItemToPurchase:
     def print_item_description(self):
 
         print('%s: %s'% (self.item_name, self.item_description))
+<<<<<<< HEAD
 
         print('test')
 
 
+=======
+
+
+
+>>>>>>> fa4adc499efebcb38222fcc69d8bb2be84102bd3
 
 class ShoppingCart:
     def __init__(self):
@@ -53,7 +59,12 @@ if __name__ == "__main__":
     items1.print_item_description()
 
     cart1 = ShoppingCart()
+<<<<<<< HEAD
     cart1.remove_item = input('Remove Item.\n')
+=======
+    cart1.add_item(items1)
+    print(cart1.cart_items)
+>>>>>>> fa4adc499efebcb38222fcc69d8bb2be84102bd3
 
     print('')
     items2 = ItemToPurchase()

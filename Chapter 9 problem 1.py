@@ -13,8 +13,7 @@ class CellPhone:
         model.replace(self.model, new_model)
 
     def set_retail_price(self, retail_price):
-        new_retail_price = input('Enter a new retail price: ')
-        retail_price.replace(self.retail_price, new_retail_price)
+        self.retail_price = input('Enter retail price')
 
     def get_manufact(self):
         print('Manufacturer: %s' % self.manufact)
