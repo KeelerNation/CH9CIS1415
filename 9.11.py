@@ -9,12 +9,11 @@ class ItemToPurchase:
         print(self.item_name, self.item_quantity, '@ $%d = $%d' % (self.item_price, self.item_price * self.item_quantity))
 
     def print_item_description(self):
-<<<<<<< HEAD
-        print('%s: %s'% (self.item_name, self.item_description))
-=======
-        print('test')
 
->>>>>>> de77248c7d8784e4e628c5bb757f5ee08c2b86fd
+        print('%s: %s'% (self.item_name, self.item_description))
+
+
+
 
 class ShoppingCart:
     def __init__(self):
@@ -52,8 +51,9 @@ if __name__ == "__main__":
     items1.item_description = input('Enter item description\n')
     items1.print_item_description()
 
-    items1 = ShoppingCart()
-    items1.remove_item = input('Remove Item.\n')
+    cart1 = ShoppingCart()
+    cart1.add_item(items1)
+    print(cart1.cart_items)
 
     print('')
     items2 = ItemToPurchase()
