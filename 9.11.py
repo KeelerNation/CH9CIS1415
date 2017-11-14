@@ -11,9 +11,16 @@ class ItemToPurchase:
     def print_item_description(self):
 
         print('%s: %s'% (self.item_name, self.item_description))
+<<<<<<< HEAD
+
+        print('test')
+
+
+=======
 
 
 
+>>>>>>> fa4adc499efebcb38222fcc69d8bb2be84102bd3
 
 class ShoppingCart:
     def __init__(self):
@@ -54,8 +61,12 @@ if __name__ == "__main__":
     items1.print_item_description()
 
     cart1 = ShoppingCart()
+<<<<<<< HEAD
+    cart1.remove_item = input('Remove Item.\n')
+=======
     cart1.add_item(items1)
     print(cart1.cart_items)
+>>>>>>> fa4adc499efebcb38222fcc69d8bb2be84102bd3
 
     print('')
     items2 = ItemToPurchase()
@@ -74,8 +85,4 @@ if __name__ == "__main__":
     print('')
 
     print('Total: $%d' % ((items1.item_quantity * items1.item_price) + (items2.item_price * items2.item_quantity)))
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 7a07da20d2cdd417dd71ea5077872e530f9a6a37
