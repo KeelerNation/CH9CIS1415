@@ -39,6 +39,8 @@ class ShoppingCart:
 
     #def print_description(self):
 
+    def print_cart(self):
+
 
 
 if __name__ == "__main__":

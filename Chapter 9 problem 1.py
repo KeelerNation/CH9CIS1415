@@ -5,15 +5,13 @@ class CellPhone:
         self.retail_price = 0
 
     def set_manufact(self, manufact):
-        new_manufact = input('Enter the new manufacturer: ')
-        manufact.replace(self.manufact, new_manufact)
+        self.manufact = input('Enter the manufacturer\n')
         
     def set_model(self, model):
-        new_model = input('Enter the new model: ')
-        model.replace(self.model, new_model)
+        self.model = input("Enter the model\n")
 
     def set_retail_price(self, retail_price):
-        self.retail_price = input('Enter retail price')
+        self.retail_price = input('Enter retail price\n')
 
     def get_manufact(self):
         print('Manufacturer: %s' % self.manufact)
